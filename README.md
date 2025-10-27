@@ -14,6 +14,7 @@ Concentrates on fundamental SQL syntax utilizing retail sales information catego
 * [Complete SQL Code File](https://github.com/user-attachments/files/23175635/Practical.1.sql) - Output Code - This is the complete SQL code executed on Snowflake to fulfill all the exercise's objectives.
 
 
+
 ## Exercise 02 - Joins and Subqueries  📚
 
 This exercise employs various tables to examine joins and somewhat intricate SQL logic. It primarily centers on analyzing retail sales, utilizing different tables that were combined to meet specific goals. A key objective was to determine which customers bought which types of products.
