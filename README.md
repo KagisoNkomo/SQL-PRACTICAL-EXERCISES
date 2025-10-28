@@ -38,11 +38,11 @@ This exercise employs various tables to examine joins and somewhat intricate SQL
 
 This exercise emphasizes advanced SQL syntax while also establishing a solid understanding of fundamental SQL syntax.
 
-* [Objective Description File](https://github.com/user-attachments/files/23175853/Practical.3.-.Advanced.SQL.-NULL.Functions.pdf) - Information Document - Outlines the goals of the exercise and the actions that need to be carried out.
+* [Objective Description File](https://github.com/KagisoNkomo/SQL-PRACTICAL-EXERCISES/blob/main/Exercise%2003/shoping_trends.csv) - Information Document - Outlines the goals of the exercise and the actions that need to be carried out.
 
-* [Shopping Trends Dataset CSV File](https://github.com/user-attachments/files/23175868/shoping_trends.csv) - Input Data File - Holds the unprocessed data along with all the parameters and dimensions required for the exercise.
+* [Shopping Trends Dataset CSV File](https://github.com/KagisoNkomo/SQL-PRACTICAL-EXERCISES/blob/main/Exercise%2003/shoping_trends.csv) - Input Data File - Holds the unprocessed data along with all the parameters and dimensions required for the exercise.
 
-* Final SQL Code Output - This document contains the complete SQL code executed in Snowflake to fulfill all the goals of the exercise.
+* [Final SQL Code Output](https://github.com/KagisoNkomo/SQL-PRACTICAL-EXERCISES/blob/main/Exercise%2003/Practical%202.1.sql) - This document contains the complete SQL code executed in Snowflake to fulfill all the goals of the exercise.
 
 
 ## Tools and Technology Used  📌
