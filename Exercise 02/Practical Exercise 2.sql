@@ -1,17 +1,17 @@
 -- Checking for completely duplicate rows in the 3 tables
 
 SELECT*,COUNT(*)
-FROM orders
+FROM PRODUCTS.PRACTICAL.PRODUCTS
 GROUP BY ALL
 HAVING COUNT(*) > 1;
 
 SELECT*,COUNT(*)
-FROM customers
+FROM CUSTOMERS.PRACTICAL.CUSTOMERS
 GROUP BY ALL
 HAVING COUNT(*) > 1;
 
 SELECT*,COUNT(*)
-FROM products
+FROM ORDERS.PRACTICAL.ORDERS
 GROUP BY ALL
 HAVING COUNT(*) > 1;
 
@@ -19,15 +19,15 @@ HAVING COUNT(*) > 1;
 -- Checking for missing values in the 3 tables
 
 SELECT* 
-FROM orders
+FROM ORDERS.PRACTICAL.ORDERS
 WHERE orderid IS NULL OR customerid IS NULL OR productid IS NULL OR quantity IS NULL OR orderdate IS NULL;
 
 SELECT* 
-FROM customers
+FROM CUSTOMERS.PRACTICAL.CUSTOMERS
 WHERE customerid IS NULL OR customername IS NULL OR country IS NULL;
 
 SELECT* 
-FROM products
+FROM PRODUCTS.PRACTICAL.PRODUCTS
 WHERE productid  IS NULL OR productname IS NULL OR price IS NULL;
 
 
@@ -40,9 +40,9 @@ SELECT
     c.customername,
     p.productname,
     o.quantity
-FROM orders AS o
-INNER JOIN customers AS c ON c.customerid = o.customerid
-INNER JOIN products AS p ON p.productid = o.productid;
+FROM ORDERS.PRACTICAL.ORDERS AS o
+INNER JOIN CUSTOMERS.PRACTICAL.CUSTOMERS AS c ON c.customerid = o.customerid
+INNER JOIN PRODUCTS.PRACTICAL.PRODUCTS AS p ON p.productid = o.productid;
 
 
 --2. INNER JOIN: Customers Who Placed Orders
@@ -53,8 +53,8 @@ SELECT
     c.country,
     o.orderid,
     o.orderdate
-FROM customers AS c
-INNER JOIN orders AS o ON c.customerid = o.customerid
+FROM CUSTOMERS.PRACTICAL.CUSTOMERS AS c
+INNER JOIN ORDERS.PRACTICAL.ORDERS AS o ON c.customerid = o.customerid
 WHERE quantity >=1;
 
 
@@ -68,9 +68,9 @@ SELECT
     o.orderdate,
     p.productid,
     o.quantity
-FROM customers AS c
-LEFT JOIN orders AS o ON c.customerid = o.customerid
-LEFT JOIN products AS p ON o.productid = p.productid;
+FROM CUSTOMERS.PRACTICAL.CUSTOMERS AS c
+LEFT JOIN ORDERS.PRACTICAL.ORDERS AS o ON c.customerid = o.customerid
+LEFT JOIN PRODUCTS.PRACTICAL.PRODUCTS AS p ON o.productid = p.productid;
 
 
 --4. LEFT JOIN: Product Order Count
@@ -79,8 +79,8 @@ SELECT
     p.productid,
     p.productname,
     COUNT(o.productid) AS totalorders
-FROM products AS p
-LEFT JOIN orders as o ON p.productid = o.productid
+FROM PRODUCTS.PRACTICAL.PRODUCTS AS p
+LEFT JOIN ORDERS.PRACTICAL.ORDERS as o ON p.productid = o.productid
 GROUP BY ALL;
 
 
@@ -94,8 +94,8 @@ SELECT
     p.productname,
     p.price,
     o.quantity
-FROM products AS p
-RIGHT JOIN orders AS o ON p.productid = o.productid;
+FROM PRODUCTS.PRACTICAL.PRODUCTS AS p
+RIGHT JOIN ORDERS.PRACTICAL.ORDERS AS o ON p.productid = o.productid;
 
 
 
@@ -110,8 +110,8 @@ SELECT
     o.orderdate,
     o.productid,
     o.quantity
-FROM customers AS c
-RIGHT JOIN orders AS o ON c.customerid = o.customerid;
+FROM CUSTOMERS.PRACTICAL.CUSTOMERS AS c
+RIGHT JOIN ORDERS.PRACTICAL.ORDERS AS o ON c.customerid = o.customerid;
 
 
 
@@ -126,8 +126,8 @@ SELECT
     o.orderdate,
     o.productid,
     o.quantity
-FROM customers AS c
-FULL OUTER JOIN orders AS o ON c.customerid = o.customerid;
+FROM CUSTOMERS.PRACTICAL.CUSTOMERS AS c
+FULL OUTER JOIN ORDERS.PRACTICAL.ORDERS AS o ON c.customerid = o.customerid;
 
 
 
@@ -142,8 +142,9 @@ SELECT
     o.orderdate,
     o.customerid,
     o.quantity
-FROM products AS p
-FULL OUTER JOIN orders AS o ON p.productid = o.productid;
+FROM PRODUCTS.PRACTICAL.PRODUCTS AS p
+FULL OUTER JOIN ORDERS.PRACTICAL.ORDERS AS o ON p.productid = o.productid;
+
 
 
 
