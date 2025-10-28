@@ -19,13 +19,14 @@ Concentrates on fundamental SQL syntax utilizing retail sales information catego
 
 This exercise employs various tables to examine joins and somewhat intricate SQL logic. It primarily centers on analyzing retail sales, utilizing different tables that were combined to meet specific goals. A key objective was to determine which customers bought which types of products.
 
-*  [Objective Description File](https://github.com/user-attachments/files/23175744/Practical.2.-.SQL.Fundamentals.SQL.JOINS.pdf.pdf) - Outlines the goals of the exercise and the necessary actions to be taken.  
 
-* [Customer Data Csv File](https://github.com/user-attachments/files/23175757/customers_large.csv) - Holds the raw customer data, including fields like Customer ID, Customer Names, and their Country of residence.
-  
-* [Order Data Csv File](https://github.com/user-attachments/files/23175784/orders_large.csv) - Input Data File - Contains the raw data related to orders, featuring fields such as Order ID, Customer ID, and Product ID.  
+*  [Objective Description File](https://github.com/KagisoNkomo/SQL-PRACTICAL-EXERCISES/blob/main/Exercise%2002/Practical%202%20-%20SQL%20Fundamentals%20(SQL%20JOINS).pdf.pdf ) - Outlines the goals of the exercise and the necessary actions to be taken.
 
-* [Product Data CSV File](https://github.com/user-attachments/files/23175818/products_large.csv) - Input Data File - Contains the raw data pertaining to product information.  
+* [Customer Data CSV File](https://github.com/KagisoNkomo/SQL-PRACTICAL-EXERCISES/blob/main/Exercise%2002/customers_large.csv)  - Holds the raw customer data, including fields like Customer ID, Customer Names, and their Country of residence.
+
+* [Order Data CSV File](https://github.com/KagisoNkomo/SQL-PRACTICAL-EXERCISES/blob/main/Exercise%2002/orders_large.csv) - Input Data File - Contains the raw data related to orders, featuring fields such as Order ID, Customer ID, and Product ID.
+
+* [Product Data CSV File](https://github.com/KagisoNkomo/SQL-PRACTICAL-EXERCISES/blob/main/Exercise%2002/products_large.csv) - Input Data File - Contains the raw data pertaining to product information.
 
 * Results with Code Snippets File Output Results - Displays snippets of SQL code corresponding to each question individually.  
 
