@@ -32,7 +32,7 @@ This exercise employs various tables to examine joins and somewhat intricate SQL
 * Complete SQL Code File Output Code - Provides the complete SQL code executed on Snowflake to fulfill all the exercise’s objectives.
 
 
-## Exercise 2.1 - Advanced SQL (Shooping Trends)📚
+## Exercise 2.1 - Advanced SQL (Shopping Trends)📚
 
 This exercise emphasizes advanced SQL syntax while also establishing a solid understanding of fundamental SQL syntax.
 
