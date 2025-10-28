@@ -13,7 +13,7 @@ Concentrates on fundamental SQL syntax utilizing retail sales information catego
   
 * [Complete SQL Code File](https://github.com/user-attachments/files/23175635/Practical.1.sql) - Output Code - This is the complete SQL code executed on Snowflake to fulfill all the exercise's objectives.
 
-
+* [Complete SQL Code File](https://github.com/KagisoNkomo/SQL-PRACTICAL-EXERCISES/blob/main/Exercise%2001/retail_sale.sql) - Output Code - This is the complete SQL code executed on Snowflake to fulfill all the exercise's objectives.
 
 ## Exercise 02 - Joins and Subqueries  📚
 
