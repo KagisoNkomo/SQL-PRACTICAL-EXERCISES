@@ -7,12 +7,12 @@ Concentrates on fundamental SQL syntax utilizing retail sales information catego
 
 * [Objective Description File](https://github.com/user-attachments/files/23175505/Practical.1.-.SQL.Fundamentals.Snowflake-Basic.SQL.Syntax.pdf) - Information File - Outlines the goals of the exercise and the tasks that need to be carried out.
   
-* [Sales Dataset Csv File](https://github.com/user-attachments/files/23175552/retail_sales_dataset.csv)- Input Data File - This file includes the unprocessed data containing all parameters and dimensions necessary for the exercise, such as gender, product category, and age.
+* [Objective Description File](https://github.com/KagisoNkomo/SQL-PRACTICAL-EXERCISES/blob/main/Exercise%2001/Practical%201%20-%20SQL%20Fundamentals%20(Snowflake-Basic%20SQL%20Syntax).pdf ) - Information File - Outlines the goals of the exercise and the tasks that need to be carried out.
   
-* [Results with Code Snippets File](https://github.com/user-attachments/files/23175622/PRACTICAL.1.-.KAGISO.NKOMO.pdf) - Output Results - Displays fragments of the SQL code for each individual question.
-  
-* [Complete SQL Code File](https://github.com/user-attachments/files/23175635/Practical.1.sql) - Output Code - This is the complete SQL code executed on Snowflake to fulfill all the exercise's objectives.
+* [Sales Dataset CSV File](https://github.com/KagisoNkomo/SQL-PRACTICAL-EXERCISES/blob/main/Exercise%2001/retail_sales_dataset.csv) - Input Data File - This file includes the unprocessed data containing all parameters and dimensions necessary for the exercise, such as gender, product category, and age.
 
+* [Results with Code Snippets File](https://github.com/KagisoNkomo/SQL-PRACTICAL-EXERCISES/blob/main/Exercise%2001/PRACTICAL%201%20-%20KAGISO%20NKOMO.pdf) - Output Results - Displays fragments of the SQL code for each individual question.
+  
 * [Complete SQL Code File](https://github.com/KagisoNkomo/SQL-PRACTICAL-EXERCISES/blob/main/Exercise%2001/retail_sale.sql) - Output Code - This is the complete SQL code executed on Snowflake to fulfill all the exercise's objectives.
 
 ## Exercise 02 - Joins and Subqueries  📚
