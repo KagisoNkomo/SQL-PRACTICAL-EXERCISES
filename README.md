@@ -28,9 +28,9 @@ This exercise employs various tables to examine joins and somewhat intricate SQL
 
 * [Product Data CSV File](https://github.com/KagisoNkomo/SQL-PRACTICAL-EXERCISES/blob/main/Exercise%2002/products_large.csv) - Input Data File - Contains the raw data pertaining to product information.
 
-* Results with Code Snippets File Output Results - Displays snippets of SQL code corresponding to each question individually.  
+* [Results with Code Snippets File](https://github.com/KagisoNkomo/SQL-PRACTICAL-EXERCISES/blob/main/Exercise%2002/PRACTICAL%20EXERCISE%202%20RESULTS%20SNIPPETS.pdf) - Output Results - Displays snippets of SQL code corresponding to each question individually.  
 
-[Complete SQL Code File](https://github.com/KagisoNkomo/SQL-PRACTICAL-EXERCISES/blob/main/Exercise%2002/Practical%20Exercise%202.sql) - Provides the complete SQL code executed on Snowflake to fulfill all the exercise’s objectives.
+* [Complete SQL Code File](https://github.com/KagisoNkomo/SQL-PRACTICAL-EXERCISES/blob/main/Exercise%2002/Practical%20Exercise%202.sql) - Provides the complete SQL code executed on Snowflake to fulfill all the exercise’s objectives.
 
 
 
