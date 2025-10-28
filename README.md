@@ -30,7 +30,8 @@ This exercise employs various tables to examine joins and somewhat intricate SQL
 
 * Results with Code Snippets File Output Results - Displays snippets of SQL code corresponding to each question individually.  
 
-* Complete SQL Code File Output Code - Provides the complete SQL code executed on Snowflake to fulfill all the exercise’s objectives.
+[Complete SQL Code File](https://github.com/KagisoNkomo/SQL-PRACTICAL-EXERCISES/blob/main/Exercise%2002/Practical%20Exercise%202.sql) - Provides the complete SQL code executed on Snowflake to fulfill all the exercise’s objectives.
+
 
 
 ## Exercise 2.1 - Advanced SQL (Shopping Trends)📚
